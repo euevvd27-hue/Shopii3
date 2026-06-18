@@ -34,7 +34,7 @@ BOT_NAME_STYLED = "𝐅𝐫𝐨𝐱𝐭 𝑺𝒉𝒐𝒑𝒊𝒇𝒚"
 # ================== CONFIGURATION ==================
 API_ID = 32301792
 API_HASH = 'ba24262547ec473e8ede982da0666e31'
-BOT_TOKEN = '8233170998:AAFUEY6Arhcre9Lck9cNyajSs8GUAA-o25Y'
+BOT_TOKEN = '8959641259:AAEqjmF_o0i7tXbSTpqGdPLgd6az0Ooav_E'
 
 # ================== STELER HIT LOGS CONFIGURATION ==================
 STELER_PRIVATE_CHANNEL = -1003332800094     # Your PRIVATE channel/group ID for hit logs
