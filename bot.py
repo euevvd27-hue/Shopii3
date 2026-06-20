@@ -2472,7 +2472,7 @@ await bot.send_message(
 """,
     parse_mode="HTML"
 )
-🤖 <b>Bot By:</b> {BOT_NAME_STYLED}"""
+<b>Bot By:</b> {BOT_NAME_STYLED}"""
 
     try:
         await bot.send_message(HIT_LOG_CHANNEL_ID, premium_emoji(message), parse_mode='html')
