@@ -2460,13 +2460,18 @@ async def send_hit_to_log_channel(result, user_info, hit_type, price=None, respo
     
     # Format like your screenshot - NO CARD NUMBER
 
+await bot.send_message(
+    chat_id,
+    f"""
 <b>HIT ➛ CHARGED</b>
 <b>Gateway ➛</b> {result.get('gateway', 'Shopify Payments')}
 <b>Response ➛</b> {response_msg or result.get('message', 'ORDER_PLACED')[:50]}
 <b>Price ➛</b> {price or result.get('price', '$2.0')}
 <b>User ➛</b> {user_display}{premium_tag}
 {datetime.now().strftime('%I:%M %p')}
-
+""",
+    parse_mode="HTML"
+)
 🤖 <b>Bot By:</b> {BOT_NAME_STYLED}"""
 
     try:
